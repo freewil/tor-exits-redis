@@ -1,0 +1,31 @@
+{
+  "name": "tor-exits-redis",
+  "version": "0.0.0",
+  "description": "ERROR: No README.md file found!",
+  "main": "index.js",
+  "dependencies": {
+    "tor-exits": "0.0.1",
+    "redis": "~0.8.3",
+    "async": "~0.2.7"
+  },
+  "devDependencies": {
+    "mocha": "~1.9.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/freewil/tor-exits-redis.git"
+  },
+  "author": "Sean Lavine (sean@eternalrise.com)",
+  "license": "BSD",
+  "directories": {
+    "test": "test"
+  },
+  "gitHead": "00b43a4e36e16420dcbeaa71315216bd507f743b",
+  "keywords": [
+    "tor",
+    "redis"
+  ]
+}
