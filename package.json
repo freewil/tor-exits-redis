@@ -1,8 +1,8 @@
 {
   "name": "tor-exits-redis",
   "version": "0.0.0",
-  "description": "ERROR: No README.md file found!",
-  "main": "index.js",
+  "description": "Maintain set of tor exit nodes in redis and run checks against it",
+  "main": "lib/index.js",
   "dependencies": {
     "tor-exits": "0.0.1",
     "redis": "~0.8.3",
