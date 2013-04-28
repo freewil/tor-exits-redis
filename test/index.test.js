@@ -25,17 +25,23 @@ describe('tor-exits-redis', function() {
     };
     
     it('should detect Tor nodes', function(done) {
-      check('127.0.0.1', function(err) {
-        assert.ok(err);
-        check('100.100.100.100', function(err) {
-          assert.ok(err);
+      check('127.0.0.1', function(err, isTor) {
+        assert.ifError(err);
+        assert.ok(isTor === true);
+        check('100.100.100.100', function(err, isTor) {
+          assert.ifError(err);
+          assert.ok(isTor === true);
           done();
         });
       });
     });
     
     it('should not detect non-Tor nodes', function(done) {
-      check('192.168.1.1', done);
+      check('192.168.1.1', function(err, isTor) {
+        assert.ifError(err);
+        assert.ok(isTor === false);
+        done();
+      });
     });
     
   });
