@@ -21,7 +21,7 @@ describe('tor-exits-redis', function() {
   describe('check()', function() {
     
     var check = function(ip, cb) {
-      tor.check({ set: 'tor-exits-redis-test' }, ip, cb);
+      tor.check(ip, { set: 'tor-exits-redis-test' }, cb);
     };
     
     it('should detect Tor nodes', function(done) {
