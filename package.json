@@ -1,6 +1,6 @@
 {
   "name": "tor-exits-redis",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Maintain set of tor exit nodes in redis and run checks against it",
   "main": "lib/index.js",
   "dependencies": {
