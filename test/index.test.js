@@ -18,6 +18,7 @@ describe('tor-exits-redis', function() {
     });
     
   });
+  
   describe('check()', function() {
     
     var check = function(ip, cb) {
