@@ -4,7 +4,7 @@
   "description": "Maintain set of tor exit nodes in redis and run checks against it",
   "main": "lib/index.js",
   "dependencies": {
-    "tor-exits": "0.0.4",
+    "tor-exits": "0.0.5",
     "redis": "~0.8.3",
     "async": "~0.2.7"
   },
