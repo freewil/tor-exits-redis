@@ -1,6 +1,4 @@
-# tor-exits-redis
-
-[![Build Status](https://travis-ci.org/freewil/tor-exits-redis.svg?branch=master)](https://travis-ci.org/freewil/tor-exits-redis)
+# tor-exits-redis [![Build Status](https://travis-ci.org/freewil/tor-exits-redis.svg?branch=master)](https://travis-ci.org/freewil/tor-exits-redis)
 
 Maintain set of tor exit nodes and run checks against it
 
